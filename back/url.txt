@@ -1,0 +1,40 @@
+Create user:
+http://localhost:8080/Projet_FENG_XU/new_user?nom=tata&prenom=toto&email=tototata@gmail.com&username=tota&password=123456789
+
+Login:
+http://localhost:8080/Projet_FENG_XU/login?login=tata@163.com&password=123321
+
+Logout:
+http://localhost:8080/Projet_FENG_XU/logout?key=6
+
+ResetPassword:
+http://localhost:8080/Projet_FENG_XU/reset_pwd?login=tata@163.com&password=123321
+
+Add follow:
+http://localhost:8080/Projet_FENG_XU/add_foll?key=5&id_friend=2
+http://localhost:8080/Projet_FENG_XU/add_foll?key=5&id_friend=1
+
+Remove follow: 
+http://localhost:8080/Projet_FENG_XU/rmv_foll?key=5&id_friend=2
+
+List followed:
+http://localhost:8080/Projet_FENG_XU/list_foll?key=5&id_follower=&id_followed=               //1,2
+http://localhost:8080/Projet_FENG_XU/list_foll?key=5&id_follower=&id_followed=1              //2,3
+http://localhost:8080/Projet_FENG_XU/list_foll?key=5&id_follower=2&id_followed=              //1,3
+http://localhost:8080/Projet_FENG_XU/list_foll?key=5&id_follower=2&id_followed=1             //Argument error
+
+Add message: 
+http://localhost:8080/Projet_FENG_XU/add_msg?key=5&text=aaaaaaa
+
+Delete message: 
+http://localhost:8080/Projet_FENG_XU/del_msg?key=5&id=5c77d264d83965291d2b4706
+
+List messages: 
+http://localhost:8080/Projet_FENG_XU/list_msg?key=5&id_author=                               //Hey,I'm user 3
+http://localhost:8080/Projet_FENG_XU/list_msg?key=5&id_author=2                              //Hello,I'm user 2
+
+Search user: 
+http://localhost:8080/Projet_FENG_XU/search_user?key=5&idUser=2
+
+Search username:
+http://localhost:8080/Projet_FENG_XU/search_username?username=tata

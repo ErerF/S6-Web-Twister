@@ -1,0 +1,30 @@
+if((email==null)||(mdp == null)) {
+	return ServiceTools.serviceRefused("Argument error", -1); ///////////
+}
+
+return ServiceTools.serviceRefused("Unknown User", -2);
+
+return ServiceTools.serviceRefused("Bad password", -3);
+
+return ServiceTools.serviceRefused("User exists", -4);
+
+
+catch(UserUnconnectedException e) {
+	e.printStackTrace();
+	return ServiceTools.serviceRefused("User session already expired", -5);
+}
+
+catch(JSONException e) {
+	return ServiceTools.serviceRefused("JSON error", -100);
+}
+
+catch (SQLException e) {
+	e.printStackTrace();
+	return ServiceTools.serviceRefused("Database connexion error", -200);
+}
+
+
+
+checked:user&follow service&bd&tools,servicetools,acces,accesmongo,bdstatic
+
+can be deleted:followtools

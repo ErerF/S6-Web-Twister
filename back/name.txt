@@ -1,0 +1,20 @@
+	nomFoncService	nomServlet	url-pattern
+
+User:
+	createUser	CreateUser	new_user
+		UserExistError
+		PasswordIllegalError
+	login		Login		login
+		UserNotExistError
+	logout		Logout		logout
+
+Ami:
+	addFollow	AddFollow	add_foll
+	removeFollow	RemoveFollow	rmv_foll
+	listFollowed	ListFollowed	list_foll
+
+Message:
+	addMsg		AddMsg		add_msg
+	deleteMsg	DeleteMsg	del_msg
+		MsgNotExistError
+	listMsgs	ListMsgs	list_msg
