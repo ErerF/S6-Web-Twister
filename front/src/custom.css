@@ -1,0 +1,198 @@
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    float: none;
+    width: 100%;
+    font-family: "Century Gothic";
+    height: 100vh;
+}
+.container-fluid a{
+    cursor:default;
+	text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.row-fluid{
+    margin: 0;
+    padding: 0;
+    float: none;
+    height: 100vh;
+}
+.container-fluid a:hover{
+	text-decoration: none;
+	color: #FF8E00;
+}
+
+.left_part{
+    background-color: #FF8E00;
+    color: white;
+    font-weight:bolder; 
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    height: 100vh;
+}
+
+.right_part{
+    position: relative;
+    top: 11%;
+    background-color: white;
+    color: #2D2D2D;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.left_part col-sm-6{
+    padding-top: 50px;
+}
+.info{
+    position:relative;
+    top:42%;
+}
+.logo{
+    float: none;
+    margin-right: auto; margin-left: auto;
+    display: block;
+    clear: both;
+    margin-bottom: 10px; 
+}
+.title{
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: oblique;
+    margin-bottom: 25px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.orange-background{
+    background-color:  #FF8E00;
+}
+.orange-background:hover{
+    background-color:  rgb(0, 167, 209);
+    transition: 0.3s;
+}
+
+.white-background{
+    color: black;
+    background-color:  white;
+}
+.white-background:hover{
+    background-color:  rgb(0, 167, 209);
+    transition: 0.3s;
+}
+
+.gray-background{
+    color: white;
+    background-color:  rgb(51, 51, 51);
+}
+
+
+.white{
+    color: white;
+}
+.Menu{
+    line-height: 31px;
+    box-shadow:0px 1px 5px 0px rgba(83, 83, 83, 0.39);
+    background-color: rgb(255, 255, 255);
+    padding-top: 16px;
+    padding-bottom: -10;
+}
+.Home{
+    margin-top: 0px;
+}
+.Profil{
+    margin-top: 0px;
+}
+.Message{
+    font-family: "Century Gothic";
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    padding:15px;
+}
+.Namecard{
+    font-family: "Century Gothic";
+    color: white;
+    background-color: #FF8E00;
+    border-radius: 5px;
+    padding: 15px;
+    clear: both;
+}
+.Statistique{
+    font-family: "Century Gothic";
+    color: white;
+    background-color: #FF8E00;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.FollowedList{
+    font-family: "Century Gothic";
+    color: white;
+    background-color: #FF8E00;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px; 
+}
+
+.FollowerList{
+    font-family: "Century Gothic";
+    color: white;
+    background-color: #FF8E00;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px; 
+}
+
+.Part-title{
+    font-family: "Century Gothic";
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+.follow{
+    cursor:default;
+    transition: 0.3s;
+}
+
+.follow:hover{
+    font-size: 17px;
+}
+
+.link{
+    font-size:15;
+    color:rgb(209, 153, 0);
+    font-family:"Century Gothic";
+    cursor:default;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.link:hover{
+    font-size: 17px;
+    color: rgb(0, 167, 209);
+}
+
+@media screen and (max-width: 991px) { 
+    .left_part{
+        background-color: rgb(209, 153, 0);
+        color: white;
+        font-weight:bolder; 
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+        height: 300px;
+    }
+    .right_part{
+        position: relative;
+        top: 0%;
+        background-color: white;
+        color: #2D2D2D;
+    }
+    .info{
+        position:relative;
+        top:31%;
+    }
+}
